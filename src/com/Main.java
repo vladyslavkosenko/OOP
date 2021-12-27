@@ -1,3 +1,7 @@
+package com;
+
+import com.Calculations;
+
 import java.util.Random;
 
 public class Main {
@@ -6,7 +10,7 @@ public class Main {
         Random random = new Random();
         int[] randomArr = new int[10];
         for (int i = 0; i < randomArr.length; i++) {
-            randomArr[i] = random.nextInt(10);
+            randomArr[i] = random.nextInt(randomArr.length);
         }
         Calculations c = new Calculations();
         c.fillArrayPaired(randomArr);

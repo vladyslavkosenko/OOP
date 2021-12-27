@@ -1,10 +1,12 @@
+package com;
+
 import java.util.Arrays;
 
 public class Calculations {
 
     public void fillArrayPaired(int... a) {
         System.out.println("1. Заповнити масив тільки парними числами");
-        int[] b = new int[10];
+        int[] b = new int[a.length];
         for (int s = 1; s < a.length; s++) {
 
             if ((a[s] % 2) == 0) b[s] = a[s];
@@ -42,14 +44,14 @@ public class Calculations {
 
     public void sumMultiplesThree(int... a) {
         System.out.println("4. Вивести суму всіх значень кратних 3");
-        int sumМalues = 0;
+        int sumValues = 0;
         for (int i = 0; i < a.length; i++) {
             if (a[i] % 3 == 0) {
-                sumМalues = sumМalues + a[i];
+                sumValues = sumValues + a[i];
             }
 
         }
-        System.out.println(sumМalues);
+        System.out.println(sumValues);
 
     }
 
