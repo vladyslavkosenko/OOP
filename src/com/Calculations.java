@@ -59,7 +59,7 @@ public class Calculations {
         System.out.println("5. Вивести значення всіх парних індексів масиву");
         for (int i = 0; i < a.length; i++) {
             if (i % 2 == 0) {
-                System.out.println(+ a[i]);
+                System.out.println(+a[i]);
             }
 
         }
@@ -81,7 +81,7 @@ public class Calculations {
             if (a[i] <= min)
                 min = a[i];
         }
-        System.out.println(+ min);
+        System.out.println(+min);
     }
 
     public void greaterImportance(int... a) {
@@ -95,6 +95,7 @@ public class Calculations {
 
 
     }
+
     public void sumPairedValues(int... a) {
         System.out.println("9. Вивести суму значень всіх парних індексів");
         int sumIndex = 0;
@@ -106,6 +107,7 @@ public class Calculations {
         }
         System.out.println(sumIndex);
     }
+
     public void firstTwentyASCI(int... a) {
         System.out.println("10. Вивести перших 20 символів з таблиці ASCI");
         char ch = 32;
