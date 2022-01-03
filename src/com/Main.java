@@ -1,7 +1,5 @@
 package com;
 
-import com.Calculations;
-
 import java.util.Random;
 
 public class Main {
@@ -25,8 +23,6 @@ public class Main {
         c.firstTwentyASCI();
 
     }
-
-
 
 
 }

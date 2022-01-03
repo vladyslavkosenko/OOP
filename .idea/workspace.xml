@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e031dd2-0ee5-4589-862a-14e9da0dc315" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Calculations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Calculations.java" afterDir="false" />
-    </list>
+    <list default="true" id="4e031dd2-0ee5-4589-862a-14e9da0dc315" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +146,7 @@
       <workItem from="1640510179042" duration="2598000" />
       <workItem from="1640556381811" duration="3646000" />
       <workItem from="1640610100538" duration="5472000" />
-      <workItem from="1640632959069" duration="1699000" />
+      <workItem from="1640632959069" duration="1944000" />
     </task>
     <task id="LOCAL-00001" summary="Created a project">
       <created>1640510230471</created>
@@ -162,11 +159,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13415000" />
+    <option name="totallyTimeSpent" value="13660000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="32" width="1920" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
